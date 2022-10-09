@@ -1,0 +1,8 @@
+{
+    "xml.fileAssociations": [
+        {
+            "pattern": "**/book3.xml",
+            "systemId": "files/schema.xsd"
+        }
+    ]
+}

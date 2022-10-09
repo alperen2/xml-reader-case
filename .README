@@ -1,0 +1,2 @@
+# cronjon tanımlanması
+0,15,30,45 * * * * php /var/www/xml-reader/fileScaning.php

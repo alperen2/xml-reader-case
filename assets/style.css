@@ -1,0 +1,77 @@
+body {
+    width: max-content;
+    height: max-content;
+    background: rgb(255,255,255);
+    background: linear-gradient(95deg, rgba(255,255,255,1) 0%, rgb(224, 175, 175) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.background-shape{
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(74deg, rgb(247 224 224) 0%, rgb(208, 195, 164) 100%);
+    position: absolute;
+    right: 0;
+    margin: auto;
+}
+
+.container {
+    width: 80%;
+    height: 70%;
+    border:1px solid #ccc;
+    box-shadow: 1px 1px 10px #333;
+    border-radius: 15px;
+    position: absolute;
+    right: 0;
+    left: 0%;
+    top: 0%;
+    bottom: 0;
+    margin: auto;
+    background: white;
+}
+
+.container form {
+    padding-top: 20px;
+    display: flex !important;
+    justify-content: center;
+
+}
+
+.container form input {
+    width: 60%;
+    height: 35px;
+    font-size: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    padding: 5px 20px;
+    border-right: 0px;
+    border-color: #ccc;
+    box-shadow: none !important;
+}
+
+.container form input:focus {
+    outline: 0px;
+}
+
+.container form button {
+    width: 70px;
+    font-size: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+    border-color: #ccc;
+}
+
+.container table {
+    width: 80%;
+    margin: 40px;
+}
